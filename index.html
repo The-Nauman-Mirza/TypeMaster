@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TypeMaster</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>TypeMaster</h1>
+        <h3>Typing Speed Test</h3>
+
+        <div id="text-display" class="text-display" spellcheck="false"></div>
+
+        <textarea id="text-input" placeholder="Start typing here..." disabled></textarea>
+
+        <div class="info">
+            <p><strong>Time:</strong> <span id="timer">0</span>s</p>
+            <p><strong>WPM:</strong> <span id="wpm">0</span></p>
+            <p><strong>Accuracy:</strong> <span id="accuracy">0</span>%</p>
+        </div>
+
+        <button id="start-btn">Start Test</button>
+
+        <h3>Previous Results</h3>
+        <ul id="result-history"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
